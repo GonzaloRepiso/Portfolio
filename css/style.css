@@ -1,0 +1,251 @@
+
+
+
+@font-face{
+
+    src: url(../font/Hatton/Hatton-Regular.woff2);
+    font-family: 'hatton-regular';
+        
+}
+
+ @font-face{
+
+    src: url(../font/Helvetica-Neue/HelveticaNeueLTPro-Roman.woff);
+    font-family: 'Helvetica-Neue';
+            
+}
+
+
+
+body{
+    margin:0;
+    font-family: Helvetica-Neue, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color:#1a1a1a;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color:#363636;
+    text-decoration: none; /* no underline */
+}
+
+
+a:hover {
+    opacity: 50%;
+}
+
+
+.navigation{
+    margin: 0 auto;
+    width: 90%;
+}
+
+nav {
+
+    
+    padding: 40px 0px 30px 0px;
+
+}
+
+ul{
+    line-height: 40px;
+}
+  
+
+.arrow{
+
+    font-family: hatton-regular, serif;
+    font-size: 24px;
+  
+}
+
+.about{
+
+    margin: 0 auto;
+    width: 90%;
+    padding: 30px 0px 30px 0px;
+
+}
+
+h1{
+
+    font-family: hatton-regular, serif;
+    font-weight: 400;
+   
+
+}
+
+.contact {
+
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px 0px 30px 0px;
+}
+
+
+.projects {
+
+    width:90%;
+    margin: 0 auto;
+    padding: 40px 0px 40px 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.project {
+
+   
+   margin-bottom: 60px;
+
+}
+
+.home:hover {
+
+   
+    opacity:50%;
+ 
+ }
+
+
+
+img{
+width: 100%;
+margin-bottom: 20px;
+}
+
+footer {
+
+    margin: 0 auto;
+    width: 90%;
+    padding: 30px 0px 40px 0px;
+    font-family: Helvetica-Neue, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:#363636;
+    text-align: right;
+}
+
+
+.exterior{
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.titulo{
+
+    width: 100%;
+    margin: 80px 0px 40px 0px;
+
+}
+
+.titulo-project{
+
+    width: 90%;
+    margin: 0 auto;
+
+    font-size: 24px;
+
+
+}
+
+
+.first{
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+p{
+
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+.uno{
+
+
+    margin-bottom: 20px;
+
+
+}
+
+.full{
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+.comment{
+    margin-bottom: 20px;
+    
+    }
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 768px) {
+
+
+.project {
+
+    width: 100%;
+    
+ 
+ }
+
+ h1{
+
+   
+    font-size: 24px;
+    line-height: 32px;
+
+
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width : 768px) {
+
+
+.project {
+
+    width: 48%;
+   
+   
+ 
+ }
+
+ h1{
+
+   
+    font-size: 42px;
+    line-height: 48px;
+
+
+}
+
+
+}
+
+
+
+
+
+   
