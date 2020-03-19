@@ -172,6 +172,12 @@ p{
 
 }
 
+p::selection {
+  background: coral;
+  color:white;
+}
+
+
 
 .uno{
 
